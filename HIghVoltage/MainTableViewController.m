@@ -9,6 +9,10 @@
 #import "MainTableViewController.h"
 
 @interface MainTableViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *wattsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *voltsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ampsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ohmsLabel;
 
 @end
 
